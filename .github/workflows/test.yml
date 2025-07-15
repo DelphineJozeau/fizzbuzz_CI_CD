@@ -1,7 +1,11 @@
 name: fizzbuzz
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - fizzbuzz-15
 jobs:
   build:
     runs-on: ubuntu-latest
