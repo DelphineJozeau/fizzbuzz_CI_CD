@@ -1,11 +1,9 @@
 name: fizzbuzz
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on:
-  push:
-    branches:
-      - main
-      - fizzbuzz-15
+
+on: workflow_dispatch
+
 jobs:
   build:
     runs-on: ubuntu-latest
