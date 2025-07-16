@@ -5,5 +5,7 @@
     sinon : on écrit le nombre
 
  lancer les tests avec npm test
- 
+
  mise en place d’une CI avec GitHub Actions.
+
+Nous allons donc créer une nouvelle branche (git checkout -b fizzbuzz-15) où nous allons rajouter un nouveau test dans notre fichier fizzbuzz.test.js:
