@@ -3,7 +3,7 @@ Mise en place d'une CI intégration continue sur GitHub avec le projet Fizzbuzz
 Dans cet exercice j'ai :
 
 - Un projet Github contenant un petit code JavaScript (Node.js), le fizzbuzz.js
-- Mis en place un envoronnement de test
+- Mise en place un environnement de test
 - lancé les tests avec npm run test
 - Mise en place d’une CI avec GitHub Actions.
 - Exécuté une CI sur le projet : Cela consiste à rajouter un fichier .github/workflows/test.yml dans le dépôt Git.
